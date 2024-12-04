@@ -1,0 +1,18 @@
+/* анимация кругов */
+.circles {
+    width: 1121px;
+    height: 621.51px;
+    background-image: url(../images/Group\ 262.png);
+    position: relative;
+    margin-top: 80px;
+    margin-left: 139.5px;
+    animation: circles 1s steps(1) infinite;
+}
+@keyframes circles {
+    0% {
+    background-position: 0 top;
+    }
+    50% {
+    background-position: -1121px top;
+    }
+}

@@ -1,3 +1,280 @@
 * {
-  background: linear-gradient(to right, #93C2EA, #A5C490);
+  background-color: #434343;
+}
+.first {
+    width: 100%;
+    height: 53vw;
+    position: relative;
+}
+.peoples {
+    position: absolute;
+
+    width: 55vw;
+    height: 52.6vw;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 23vw;
+}
+.leg1 {
+    position: absolute;
+    z-index: 3;
+    width: 4.75vw;
+    height: 12.25vw;
+    margin-top: 35vw;
+    margin-left: 37vw;
+
+}
+p {
+    position: absolute;
+   font-family: Futura;
+   font-size: 3.6vw;
+   font-weight: 700;
+   font-style: normal;
+   color: white;
+   width: 33vw;
+   height: 13vw;
+   text-align: center;
+   margin-top: 5vw;
+   margin-left: 35vw;
+   background-color: rgba(0, 0, 0, 0);
+}
+.zagolovok {
+animation: zagolovok 2s linear infinite;
+}
+
+.door1 {
+    position: absolute;
+    z-index: 4;
+    width: 20vw;
+    height: 55vw;
+    background: linear-gradient(to right, #A19BF4, #66B0EF );
+    border-radius: 0px 30px 30px 0px;
+    animation: door1 1.7s linear infinite;
+}
+.door2 {
+    position: absolute;
+    z-index: 4;
+    width: 20vw;
+    height: 55vw;
+    margin-left: 80vw;
+    background: linear-gradient(to left, #A19BF4, #66B0EF);
+    border-radius: 30px 0px 0px 30px;
+    animation: door2 1.7s linear infinite;
+}
+.opener {
+    position: absolute;
+    z-index: 5;
+    width: 1.5vw;
+    height: 3.2vw;
+    margin-top: 26vw;
+    margin-left: 1vw;
+    background-image: url(../images/opener.svg);
+    background-color: rgba(0, 0, 0, 0);
+}
+.second {
+    background-image: url(../images/бегущая\ строка.svg);
+    width: 336vw;
+    height: 6.4vw;
+    margin-top: 5vw;
+    margin-left: -3vw;
+    position: relative;
+    animation: second 5s linear infinite;
+    background-color: white;
+}
+.third {
+    position: relative;
+}
+.window {
+    position: absolute;
+    width: 81.3vw;
+    height: 8vw;
+    background-color: #A1A1A1;
+    border-radius: 30px;
+    border-right: 10px solid white;
+    border-left: 10px solid white;
+    border-bottom: 20px solid white;
+    margin-left: 8.5vw;
+    animation: window 4s linear infinite;
+}
+.forest {
+    background-image: url(../images/forest.svg);
+    width: 82.7vw;
+    height: 40.7vw;
+    margin-top: 4vw;
+    margin-left: 8.5vw;
+}
+.forest:hover {
+    background-image: url(../images/forest2.svg);
+    width: 82.7vw;
+    height: 40.7vw;
+    margin-top: 4vw;
+    margin-left: 8.5vw;
+}
+
+.fourth {
+    position: relative;
+}
+
+
+.human {
+    background-image: url(../images/human1.svg);
+    width: 37vw;
+    height: 60vw;
+    margin-top: 3vw;
+    margin-left: 0vw;
+    position: absolute;
+    animation: human 0.8s steps(1) infinite;
+}
+
+.circles {
+    background-image: url(../images/circlec.svg);
+    width: 31.25vw;
+    height: 31.25vw;
+    margin-top: 3vw;
+    margin-left: 37vw;
+    position: absolute;
+    animation: circles 0.9s steps(1) infinite;
+}
+
+.human2 {
+    background-image: url(../images/human2.svg);
+    width: 32.5vw;
+    height: 31.25vw;
+    margin-top: 3vw;
+    margin-left: 67.5vw;
+    position: absolute;
+    animation: human2 0.8s steps(1) infinite;
+}
+.text {
+    background: linear-gradient(to top, #66B0EF,#A19BF4);
+    width: 30.5vw;
+    height: 28.8vw;
+    margin-top: 34.2vw;
+    margin-left: 37vw;
+    position: absolute;
+}
+.p2 {
+    width: 18.5vw;
+    height: 11.5vw;
+    margin-top: 7.4vw;
+    margin-left: 5.5vw;
+    text-align: center;
+    animation: text 1s linear infinite;
+}
+.down {
+    background-image: url(../images/down.svg);
+    width: 32.5vw;
+    height: 28.8vw;
+    margin-top: 34.2vw;
+    margin-left: 67.5vw;
+    position: absolute;
+    animation: down 5s linear infinite;
+}
+.slomlen {
+    background: linear-gradient(to right,#DDC966, #A19BF4);
+    width: 100%;
+    height: 50vw;
+    margin-top: 66vw;
+    position: relative;
+}
+.slomlen img {
+    background: none;
+    position: absolute;
+}
+.slomlen img:nth-of-type(1) {
+    margin-left: 35vw;
+    margin-top: 8vw;
+    animation: body 5s linear infinite;
+}
+.slomlen img:nth-of-type(2) {
+    margin-left: 45vw;
+    margin-top: 32vw;
+}
+.slomlen img:nth-of-type(3) {
+    margin-left: 3vw;
+    margin-top: 28vw;
+    animation: hand-1 5s linear infinite;
+}
+.slomlen img:nth-of-type(4) {
+    margin-left: 75vw;
+    margin-top: 27vw;
+    animation: hand-2 5s linear infinite;
+}
+.slomlen img:nth-of-type(5) {
+    margin-left: 8vw;
+    margin-top: 5vw;
+    animation: leg-1 5s linear infinite;
+}
+.slomlen img:nth-of-type(6) {
+    margin-left: 75vw;
+    margin-top: 6vw;
+    animation: leg-2 5s linear infinite;
+}
+.p3 {
+    margin-top: 42vw;
+    margin-left: -4vw;
+    font-size: 7.5vw;
+    animation: цель 5s linear infinite;
+}
+.p4 {
+    margin-top: 42vw;
+    margin-left: 71vw;
+    font-size: 7.5vw;
+    animation: ным 5s linear infinite;
+}
+.sixth {
+    background-image: url(../images/train.svg);
+    width: 100vw;
+    height: 52.8vw;
+    margin-top: 4vw;
+    animation: train 7s linear infinite;
+}
+.sixth:hover {
+    background-image: url(../images/train2.svg);
+    width: 100vw;
+    height: 53vw;
+    margin-top: 4vw;
+}
+.seventh {
+    position: relative;
+}
+
+.p01, .p02, .p03 {
+    font-size: 2vw;
+    font-weight: 300;
+}
+.p01 {
+    margin-left: -10.5vw;
+}
+.p02 {
+    justify-content: center;
+}
+.p03 {
+    margin-left: 79vw;
+}
+.p04, .p05, .p06 {
+    font-size: 2.4vw;
+    font-weight: 700;
+}
+.p04 {
+    margin-left: -12vw;
+    width: 50vw;
+    margin-top: 7.5vw;
+}
+.p05 {
+    margin-top: 7.5vw;
+    justify-content: center;
+}
+.p06 {
+    margin-top: 7.5vw;
+    margin-left: 72.5vw;
+}
+.p04:hover {
+    color: #DDC966;
+}
+.p05:hover {
+    color: #DDC966;
+}
+.p06:hover  {
+    color: #DDC966;
 }
